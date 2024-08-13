@@ -1,0 +1,20 @@
+Diccionario de variables predictoras:
+
+
+day_of_week: Día de la semana (0 = lunes, 6 = domingo).
+day_is_weekend: Indica si el día es fin de semana (1 = sábado o domingo, 0 = entre semana).
+day_of_year: Día del año (de 1 a 365, o 366 en años bisiestos).
+day_of_month: Día del mes (de 1 a 31).
+week_of_year: Semana del año según el calendario ISO (de 1 a 52 o 53).
+sales_lag_1: Ventas del día anterior (retraso de 1 día).
+sales_lag_14: Ventas con un retraso de 14 días.
+sales_lag_21: Ventas con un retraso de 21 días.
+sales_lag_28: Ventas con un retraso de 28 días.
+sales_rolling_sum_21: Suma de las ventas de los últimos 21 días (ventana móvil de 21 días).
+sales_rolling_sum_28: Suma de las ventas de los últimos 28 días (ventana móvil de 28 días).
+sales_rolling_max_42: Máximo de las ventas de los últimos 42 días (ventana móvil de 42 días).
+sales_rolling_min_42: Mínimo de las ventas de los últimos 42 días (ventana móvil de 42 días).
+sales_rolling_max_49: Máximo de las ventas de los últimos 49 días (ventana móvil de 49 días).
+sales_rolling_min_49: Mínimo de las ventas de los últimos 49 días (ventana móvil de 49 días).
+sales_rolling_max_56: Máximo de las ventas de los últimos 56 días (ventana móvil de 56 días).
+sales_rolling_min_56: Mínimo de las ventas de los últimos 56 días (ventana móvil de 56 días).
